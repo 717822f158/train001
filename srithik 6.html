@@ -1,0 +1,142 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  
+  background-image: url("https://eskipaper.com/images/railway-4.jpg");
+  
+  
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  
+  height: 100%; 
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 50px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+    <form action="">
+        <table cellpadding="2" width="90%" align="center" cellspacing="2" bgcolor="white">
+          <tr>
+            <th colspan="2">Railway Reservation Form</th>
+          </tr>
+          <tr>
+            <td>From</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>To</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Train no./Name</td>
+            <td><input type="text" name="train" </td>
+          </tr>
+          <tr>
+            <td>Select Class</td>
+            <td>
+              <select name="class">
+                <option value="-1">Select</option>
+                <option value="sleeper">Sleeper</option>
+                <option value="AC IIIrd">3A</option>
+                <option value="AC IInd">2A</option>
+                <option value="AC Ist">1A</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>No. of passengers</td>
+            <td>
+              <select name="passengers" id="">
+                <option value="-1">Select</option>
+                <option value="1">1 passenger</option>
+                <option value="2">2 passengers</option>
+                <option value="more">More than 2</option>
+              </select>
+            </td>
+          </tr>
+          <td>Passenger Name</td>
+          <td>Age</td>
+          <td>Gender</td>
+          </tr>
+          <tr>
+            <td><input type="text" size"40"></td>
+            <td><input type="text" size "2"></td>
+            <td>
+              <select name="gender" id="Gender">
+                <option value="Male">Male</option>
+                <option value="F">Female</option>
+            </td>
+            </select>
+          </tr>
+          <tr>
+            <td><input type="text" size"40"></td>
+            <td><input type="text" size "2"></td>
+            <td>
+              <select name="gender" id="Gender">
+                <option value="Male">Male</option>
+                <option value="F">Female</option>
+            </td>
+            </select>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td><input type="text" name"address" id="address" size="50"></td>
+          </tr>
+          <tr>
+            <td>Mobile no.</td>
+            <td><input type="text" size="10"></td>
+          </tr>
+          <tr>
+            <td>Payment Mode</td>
+            <td><input type="radio">UPI
+              <input type="radio">Credit/Debit Card
+              <input type="radio">Netbanking
+            </td>
+          </tr>
+ <td><button>Reset</button></td>
+            <td><button>submit form</button></td>
+            <td><button>Cancel</button></td>
+
+</script>
+</body>
+</div>
+</script>
+</form>
+ </script>
+</div>
+</body>
+</html>
